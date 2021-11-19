@@ -10,9 +10,10 @@ def main():
 
     # asking for input
     try:
-        age = int(input("Please enter your age:"))
+        age = int(input("Please enter your age: "))
     except ValueError:
         print("Input has to be integer")
+        return
 
     # process/output
     if age > 40 or age < 25:
