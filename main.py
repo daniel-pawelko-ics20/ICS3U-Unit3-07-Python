@@ -12,7 +12,7 @@ def main():
     try:
         age = input("Please enter your age: ")
         age = int(age)
-        
+
         # process/output
         if age > 40 or age < 25:
             print("You are NOT an acceptable age")
